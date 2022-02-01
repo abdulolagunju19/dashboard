@@ -8,7 +8,8 @@ import {
   AccordionPanel,
   AccordionIcon,
   VStack,
-  useColorModeValue
+  useColorModeValue,
+  Link
 } from '@chakra-ui/core';
 import { NavLink } from './nav-link';
 import {
@@ -82,19 +83,22 @@ export default function Sidebar(props) {
       <Flex w="full" align="center" h={16} p={3}>
         <Flex boxSize="full" align="center" px={3}>
           <Flex boxSize="full" align="center">
-            <Box
-              as={LogoMark}
-              h={8}
-              w="auto"
-              display={{ base: 'block', lg: 'none' }}
-            />
-
+            <Link href="/">
+              <Box
+                as={LogoMark}
+                h={8}
+                w="auto"
+                display={{ base: 'block', lg: 'none' }}
+              />
+              </Link>
+              <Link href="/">
             <Box
               as={LogoOnDark}
               h={8}
               w="auto"
               display={{ base: 'none', lg: 'block' }}
             />
+            </Link>
           </Flex>
         </Flex>
       </Flex>

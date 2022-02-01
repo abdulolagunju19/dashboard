@@ -24,8 +24,8 @@ export default function Header() {
         <Flex w="full" align="center" justify="space-between">
           <Flex align="center">
             <NextLink href="/dashboard" passHref>
-              <Button as="a" variant="ghost" px={0} fontWeight="bold">
-                {MY_APP}
+              <Button as="a" variant="ghost" p={4} fontWeight="bold">
+                Pontem Innovations
               </Button>
             </NextLink>
           </Flex>

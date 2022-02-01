@@ -23,9 +23,9 @@ export default function Header() {
         <Flex w="full" maxW="5xl" align="center" justify="center">
           <Flex w="full" align="center" justify="space-between">
             <Flex align="center">
-              <NextLink href="/" passHref>
-                <Button as="a" variant="ghost" px={0} fontWeight="bold">
-                  {MY_APP}
+              <NextLink href="/dashboard" passHref>
+                <Button as="a" variant="ghost" p={2} fontWeight="bold">
+                  Dashboard
                 </Button>
               </NextLink>
             </Flex>

@@ -1,5 +1,6 @@
-import { Flex, Heading, Text, Button, Stack } from '@chakra-ui/core';
+import { Flex, Heading, Text, Button, Stack, Link } from '@chakra-ui/core';
 import { getLayout } from '@/layouts/default';
+import Image from 'next/image'
 import { MY_APP } from '@/utils/constants';
 
 const Home = () => {
@@ -7,30 +8,20 @@ const Home = () => {
     <Flex direction="column" justify="center" align="center">
       <Heading
         as="h1"
-        mb={2}
-        size="2xl"
-        fontStyle="italic"
-        fontWeight="extrabold"
+        size="xl"
+        fontWeight="bold"
       >
-        {MY_APP}
+        Pontem Innovations Dashboard
       </Heading>
-
-      <Button
-        as="a"
-        href="/dashboard"
-        backgroundColor="gray.900"
-        color="white"
-        fontWeight="medium"
-        mt={4}
-        maxW="200px"
-        _hover={{ bg: 'gray.700' }}
-        _active={{
-          bg: 'gray.800',
-          transform: 'scale(0.95)'
-        }}
-      >
-        View Dashboard
-      </Button>
+      <script src="//code.tidio.co/naazozmwi7vjnre78i1ecvtkkjvtlu0p.js" async></script>
+      <Image
+        src="/indexpic.png"
+        alt="Photo"
+        width={280}
+        height={280}
+        priority
+        className="next-image"
+      />
     </Flex>
   );
 };
