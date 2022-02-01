@@ -13,7 +13,7 @@ const Home = () => {
       >
         Pontem Innovations Dashboard
       </Heading>
-      <script src="//code.tidio.co/naazozmwi7vjnre78i1ecvtkkjvtlu0p.js" async></script>
+      <script src="//code.tidio.co/uajegucsydanwvb0btwf7h0ulnkm3ghq.js" async></script>
       <Image
         src="/indexpic.png"
         alt="Photo"
