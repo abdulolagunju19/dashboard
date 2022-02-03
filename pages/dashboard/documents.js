@@ -38,10 +38,10 @@ const DashboardDocuments = () => {
     return(
         <div>
             <Heading>Documents</Heading>
-            <div className="card flex justify-content-center">
-            <Chart type="pie" data={chartData} options={lightOptions} style={{ position: 'relative', width: '40%' }} />
-            </div>
             <br/>
+            <div>
+            <iframe src="https://app.powerbi.com/view?r=eyJrIjoiYjIzZThhZDgtOTMyMy00Mzc5LTk3ZTItZjU1ZjFmYmE3MDk3IiwidCI6IjYwMWNmNGMxLWJiNWYtNDBjNi04ODE2LWFlZjQyNDJmZTJhMCJ9" width="600" height="380" frameborder="none" ></iframe>
+            </div>
             <Flex>
             <Link href="https://storyset.com/data">Data Illustrations by Storyset</Link>
             </Flex>
