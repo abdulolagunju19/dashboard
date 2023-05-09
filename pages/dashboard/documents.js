@@ -40,7 +40,7 @@ const DashboardDocuments = () => {
             <Heading>Documents</Heading>
             <br/>
             <div>
-            <iframe src="https://app.powerbi.com/view?r=eyJrIjoiYjIzZThhZDgtOTMyMy00Mzc5LTk3ZTItZjU1ZjFmYmE3MDk3IiwidCI6IjYwMWNmNGMxLWJiNWYtNDBjNi04ODE2LWFlZjQyNDJmZTJhMCJ9" width="600" height="380" frameborder="none" ></iframe>
+            <iframe src="/ca-en-consumer-business-cannabis-annual-report-2021-AODA.pdf" width="600" height="380" frameborder="none" ></iframe>
             </div>
             <Flex>
             <Link href="https://storyset.com/data">Data Illustrations by Storyset</Link>
