@@ -11,7 +11,7 @@ const Home = () => {
         size="xl"
         fontWeight="bold"
       >
-        Pontem Innovations Dashboard
+        [Re] Waste Dashboard
       </Heading>
       <script src="//code.tidio.co/uajegucsydanwvb0btwf7h0ulnkm3ghq.js" async></script>
       <Image
