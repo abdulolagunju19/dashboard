@@ -25,7 +25,7 @@ export default function Header() {
           <Flex align="center">
             <NextLink href="/dashboard" passHref>
               <Button as="a" variant="ghost" p={4} fontWeight="bold">
-                Pontem Innovations
+                [Re] Waste
               </Button>
             </NextLink>
           </Flex>
