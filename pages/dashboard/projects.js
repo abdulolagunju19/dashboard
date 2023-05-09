@@ -53,9 +53,8 @@ const DashboardProjects = () => {
         <div>
             <Heading mb={3}>Projects</Heading>
             <Flex flexDir="row">
-                <Card title="Neurotech Prototype" style={{ width: '25rem', marginBottom: '2em' }}>
-                    <p className="m-0" style={{lineHeight: '1.5'}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-                        quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!</p>
+                <Card title="Goodwill Industries" style={{ width: '25rem', marginBottom: '2em' }}>
+                    <p className="m-0" style={{lineHeight: '1.5'}}>[Re] Waste worked directly with Goodwill to create a customized manufacturing program to repurpose their recycled plastic flakes into products. Goodwill produces 25-30 tonnes of granulated plastic per year. Plastic items that are donated to Goodwill that do not sell within four weeks are brought back to their Impact Centre and granulated into a plastic flake.</p>
                 </Card>
                 <Box className="card" ml={10}>
                     <Timeline value={events1} opposite={(item) => item.status} content={(item) => <small className="p-text-secondary">{item.date}</small>} />
